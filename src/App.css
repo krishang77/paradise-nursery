@@ -1,0 +1,20 @@
+.landing-hero {
+  display: grid;
+  min-height: min(72vh, 760px);
+  align-items: center;
+  background-image: linear-gradient(90deg, rgb(22 35 22 / 76%), rgb(22 35 22 / 10%)), var(--hero-image);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.25rem;
+  color: white;
+  overflow: hidden;
+}
+
+.landing-copy { max-width: 42rem; padding: clamp(2rem, 8vw, 6rem); }
+.landing-copy h1 { margin: .25rem 0 1rem; font-size: clamp(3rem, 8vw, 6.5rem); line-height: .98; }
+.landing-copy p:not(.eyebrow) { max-width: 34rem; font-size: 1.15rem; }
+.eyebrow { font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.get-started { display: inline-block; margin-top: 1rem; padding: .85rem 1.5rem; border-radius: 999px; background: #f4a261; color: #263b29; font-weight: 700; text-decoration: none; }
+.about-us { max-width: 52rem; margin: 4rem auto; padding: 0 1.25rem; }
+.about-us h2 { font-size: clamp(2rem, 5vw, 3.5rem); }
+.about-us p { line-height: 1.7; }
